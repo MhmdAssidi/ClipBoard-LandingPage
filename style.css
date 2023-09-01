@@ -1,0 +1,331 @@
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+    body{
+        
+        background-image: url("./images/bg-header-desktop.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        Font-size:18px;
+        font-family: 'Bai Jamjuree', sans-serif;  
+        height: 100vh;
+        margin: 150px 0;
+    }
+   
+
+     h1 h2 h3{
+        
+     font-weight: 600;
+     
+    }
+
+    p{
+        opacity: 0.4;
+        font-weight: 400;
+    }
+    
+    .main-header{
+          display: flex;
+        text-align: center;
+        justify-content: center; 
+        
+    }
+
+    .clipboard{
+        display: flex;
+        text-align: center;
+        justify-content: center; 
+        
+    }
+    
+
+button{
+    padding: 20px 20px;
+      
+        margin: 30px;
+        background: linear-gradient(45deg, hsl(171, 66%, 44%), hsl(171, 66%, 44%));
+        border: none;
+        color: white;
+        font-size: 20px;
+        border-radius: 40px;
+        cursor: pointer;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.mac-button{
+        background: linear-gradient(45deg, hsl(233, 100%, 69%), hsl(233, 100%, 69%));
+    }
+
+
+
+ 
+.track-text{
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    margin: 70px;
+    padding: 30px;
+}
+
+
+    .contentTrack-box{
+        display: flex;
+        align-items: center;
+  padding: 20px;
+        }   
+
+
+ .contentTrack-text{
+    padding-left: 120px;
+    padding-bottom: 130px;
+    margin-right: 20px;
+    margin-top: 20px;
+
+    
+} 
+
+.contentTrack-text div h3{
+    padding-bottom: 10px;
+}
+
+.access{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.access div{
+    padding: 30px;
+}
+
+.workflow{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.contentWorkflow-box{
+    display: flex;
+    margin: 70px 200px;
+    padding-top: 40px;
+}
+
+.contentWorkflow-box div{
+    padding: 20px;
+}
+
+.images{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    margin:40px 10px;
+
+}
+.images div img{
+    padding: 30px;
+}
+ul li a{
+    text-decoration: none;
+    color: #000;
+    opacity: 0.7;
+    } 
+footer{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    background-color: hsl(0, 6%, 97%);
+    
+}
+footer .footer-content{
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 0;
+}
+
+.footer-links ul{
+   list-style: none;
+   font-weight: 400;
+   text-decoration: none;
+  
+}
+.footer-links div li{
+    padding: 20px;
+}
+
+ footer .footer-content .footer-links{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    padding-left: 300px;
+    width: 80%;
+
+}
+
+/* footer .footer-content .footer-links div{
+} */
+ footer .footer-content .footer-links .item1{
+    
+    display: inline-block;
+}
+
+footer .footer-content .footer-links .item2{
+    display: inline-block;
+ 
+}
+
+footer .footer-content .footer-links .item3{
+
+    display: inline-block;
+ 
+} 
+/* footer .footer-content .footer-links ul li{
+    
+} */
+
+ .footer-content .social-icons{
+float: right;    
+
+} 
+.footer-content .social-icons a{   
+padding: 10px;
+}
+
+@media (max-width: 1024px) {
+
+body{
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    width: 80%;
+    
+}
+.contentTrack-box{
+    width: 80%;
+    display: block;
+   
+
+}
+
+.contentTrack-box img{
+    width: 80%;
+    margin-left: 90px;
+}
+
+.access img{
+    
+    width:100%;
+}
+
+.workflow div{
+    width:auto;
+    display: inline-block;
+}
+.images img{
+    display: block;
+}
+
+.footer-content {
+    display: block;
+    text-align: center; 
+    margin: 0;
+  }
+  
+  .footer-links ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  
+  }
+
+  @media (max-width: 481px) {
+    body {
+      font-size: 16px; 
+      text-align: center;
+    }
+  
+    button {
+        width:80%;
+      max-width: 100%; 
+    }
+  .track-container{
+    display: block;
+    text-align: center;
+  }
+  .track-container .track-text{
+    width:80%;
+      max-width: 100%; 
+      margin: 0 auto; 
+
+  }
+    .contentTrack-box {
+       width:80%;
+      max-width: 100%; 
+     display: block;
+      text-align: center;
+    }
+  
+    .track-container .contentTrack-box img {
+      width: 80%; 
+      max-width: 100%;
+      margin: 0 auto; 
+      padding: 10px 0;
+     
+    }
+    .contentTrack-box .contentTrack-text{
+        
+        padding: 10px 0;
+        }
+        .contentTrack-text div{
+        padding-bottom: 30px;
+        }
+    .access img {
+      width: 100%;
+    }
+  
+    .workflow div {
+      width: 100%;
+      display: block;
+      text-align: center;
+      margin: 0 auto;
+    }
+  
+    .images img {
+      width: auto;
+      max-width: 100%;
+      display: block;
+      margin: 0 auto;
+    }
+  
+    footer .footer-content {
+      display: block;
+      text-align: center;
+      padding: 0;
+    }
+  
+    footer .footer-content .footer-links {
+      padding: 0;
+      margin: 0 auto;
+      display: block;
+    }
+  }
+
+
+
+
+
+
+
